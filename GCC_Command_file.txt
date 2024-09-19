@@ -1,0 +1,15 @@
+ALL COMMANDS TO CONVERT C CODE FILES TO DIFF LEVELS OF COMPILATION PROCESS
+
+
+
+--> To convert .c file to .i file (source code to pre processor code)
+        gcc -E your_file.c -o output.i
+
+--> To convert .c file to .s file (source code to assembly code)
+        gcc -S your_file.c -o output.s
+
+--> To convert .c file to .o file (source code to object code)
+        gcc -c your_file.c -o output.o
+
+--> To convert .c file to .exe file (source code to executable code)
+        gcc your_file.c -o output.exe
