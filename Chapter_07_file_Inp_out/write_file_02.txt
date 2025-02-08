@@ -1,0 +1,2 @@
+The writted number from the c file using fprintf is: 55
+You can write multiple lines like this if you want.

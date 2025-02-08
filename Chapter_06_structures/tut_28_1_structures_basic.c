@@ -6,7 +6,7 @@ struct employee
     int id;
     int salary;
     char name[20];
-};
+} e5, e6, e7;    // the is also right 
 
 int main(int argc, char const *argv[])
 {
@@ -17,7 +17,10 @@ int main(int argc, char const *argv[])
     e1.id = 01;
     e1.salary = 55000;
 
-// INITIALIZATION OF DATATYPE (TYPE-2)
+    e6.id = 06;
+    e5.salary = 200000;
+
+// INITIALIZATION OF DATATYPE(at the time of defining it) (TYPE-2)
 
     struct employee e2;
     struct employee e2 = {01, 5550, "Abhishek"};
